@@ -1,0 +1,62 @@
+
+.main {
+    color: #fff;
+    font-size: 100px;
+    position:absolute;
+    top:200px;
+    left:400px;
+}
+
+body {
+    background-color: #444444;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: #fff;
+    padding:20px;
+    justify-content: space-between;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: #fff;
+    padding:20px;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
+nav li{
+    list-style: none;
+    font-size: 35px;
+    margin: 0 50px 0 50px;
+    font-family: 'Staatliches', cursive,sans-serif;
+}
+footer li{
+    list-style: none;
+    font-size: 35px;
+    margin: 0 50px 0 50px;
+}
+
+footer li a{
+    text-decoration: none;
+    font-size: 35px;
+    margin: 0 50px 0 50px;
+    color: #fff;
+}
+
+.El_Dorado {
+    text-align: center;
+    margin:10px;
+
+}
+.El_Dorado img{
+    width: 300px;  
+    height: auto;  
+}
